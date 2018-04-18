@@ -1,0 +1,21 @@
+<import src='../movie-item/movie-item.wxml' />
+<template name='movie-list'>
+  <view class='movie-list-bg'>
+    <view class='movie-list'>
+      <view class='movie-list-bar'>
+      <!--利用结构赋值结构出来  -->
+        <text>{{name}}</text>
+        <!--data-more利用h5绑定数据绑定  -->
+        <text class='movie-list-mover' bindtap='binToMore' data-more='{{name}}'>更多</text>
+      </view>
+      <scroll-view style='width:648rpx;'scroll-x="{{true}}">
+      <view class='movie-list-container'>
+        <block wx:for="{{movies}}">
+         <template is="movie-item" data="{{...item}}">
+        </template>
+        </block>
+      </view>
+      </scroll-view>
+    </view>
+  </view>
+</template>

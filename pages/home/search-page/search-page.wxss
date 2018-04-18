@@ -1,0 +1,48 @@
+page{
+  background: #fff;
+}
+.search{
+  background: #41be57;
+  padding: 28rpx 20rpx;
+}
+.search-bar{
+  height: 58rpx;
+  background: #fff;
+  border-radius: 8px;
+}
+.search-page-img{
+  width: 68rpx;
+  height: 80rpx;
+}
+.search-page-container{
+display: flex;
+flex-direction: row;
+padding: 20rpx 25rpx;
+border-bottom: 1px solid #999;
+color: #999;
+}
+.search-psge-content{
+  display: flex;
+  flex-direction: column;
+}
+.search-page-movies{
+ display: flex;
+ flex-direction: column; 
+}
+.search-page-text{
+  color: #e9e9e9;
+}
+.search-page-history{
+ display: flex;
+ /*横向排列  */
+ flex-direction: row;
+ /*居中  */
+ justify-content:space-between;
+ font-size: 30rpx;
+ padding: 10rpx 75rpx;
+ background: #999;
+}
+.search-page-historys-content{
+  padding: 17rpx 20rpx;
+  line-height: 45rpx;
+}

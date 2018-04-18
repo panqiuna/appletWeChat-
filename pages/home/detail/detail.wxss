@@ -1,0 +1,17 @@
+@import '../search/search.wxss';
+@import '../movie-item/movie-item.wxss';
+@import '../star/star.wxss';
+.detail-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 648rpx;
+  margin: 20rpx 43rpx 0 59rpx;
+  /*那inphone的屏幕宽度减width/2+多出的像素/2  */
+}
+/*去除滚动条阴影  */
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}

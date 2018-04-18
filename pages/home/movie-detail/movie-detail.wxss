@@ -1,0 +1,29 @@
+@import '../star/star.wxss';
+
+page {
+  background: #fff;
+}
+
+.movie-detail-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 670rpx;
+  background: #fff;
+  padding: 20rpx 40rpx;
+}
+
+.movie-detail-left {
+  width: 450rpx;
+}
+
+.movie-detail-img {
+  width: 300rpx;
+  height: 350rpx;
+  margin-right: 20rpx;
+}
+
+.movie-detail-h3 {
+  font-size: 45rpx;
+  line-height: 60rpx;
+}

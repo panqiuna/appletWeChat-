@@ -1,0 +1,10 @@
+<import src="../star/star.wxml"/>
+<template name='movie-item'>
+<view class='movie-item' bindtap='bindTDetail' data-mid="{{id}}">
+<image src='{{images}}'class='movie-item-img'></image>
+<text class='movie-item-title'>{{title}}</text>
+<!--is是引入文件  -->
+<template is='star' data="{{...rating}}">
+</template>
+</view>
+</template>

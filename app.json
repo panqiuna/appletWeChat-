@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/home/movie-detail/movie-detail",
+    "pages/home/search-page/search-page",
+    "pages/home/home",
+  "pages/home/detail/detail"
+  
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#41be58",
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "豆瓣网"
+  }
+}

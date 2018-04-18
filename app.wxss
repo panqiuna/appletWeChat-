@@ -1,0 +1,5 @@
+page{
+  background: #e8e8e8;
+  font-size: 24rpx;
+  font-family: 'Microsoft Yahei'
+}

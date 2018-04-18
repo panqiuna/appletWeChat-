@@ -1,0 +1,8 @@
+<template name="search">
+<view class='search' bindtap="bindToSearch">
+<view class='search-bar'>
+<!--搜索框  -->
+ <icon type="search" size="16"/>
+</view>
+</view>
+</template>

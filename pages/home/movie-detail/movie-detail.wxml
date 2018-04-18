@@ -1,0 +1,10 @@
+<import src="../star/star.wxml" />
+<view class='movie-detail-container'>
+  <view class='movie-detail-left'>
+    <text class='movie-detail-h3'>{{movie.title}}</text>
+    <template is='star' data="{{...movie.rating}}"></template>
+    <text>{{movie.summary}}</text>
+  </view>
+  <!--给图片加点击效果  -->
+  <image src="{{movie.image}}" class='movie-detail-img'bindTap="bindToBig"></image>
+</view>

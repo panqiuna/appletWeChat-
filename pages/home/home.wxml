@@ -1,0 +1,8 @@
+
+<import src="./search/search.wxml"/>
+<import src='movie-list/movie-list.wxml'/>
+<template is='search'></template>
+<!--利用es6的结构赋值  -->
+<template is='movie-list' data="{{...inTheaters}}"></template>
+<template is='movie-list' data="{{...comingSoon}}"></template>
+<template is='movie-list' data="{{...top250}}"></template>

@@ -1,0 +1,13 @@
+.search{
+background: #41be58;
+padding: 28rpx 16rpx; 
+}
+.search-bar{
+background: #fff;
+text-align: center;
+height: 58rpx;
+border-radius: 5px;
+} 
+.search-bar icon{
+margin-top: 10rpx;
+}
